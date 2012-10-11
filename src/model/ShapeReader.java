@@ -17,11 +17,17 @@ import javax.swing.JPanel;
 
 import org.geotools.data.FeatureSource;
 import org.geotools.data.shapefile.ShapefileDataStore;
+import org.geotools.data.shapefile.ShpFiles;
+import org.geotools.data.shapefile.prj.PrjFileReader;
 import org.geotools.feature.FeatureCollection;
 import org.geotools.feature.FeatureIterator;
 import org.opengis.feature.Feature;
 import org.opengis.feature.Property;
 import org.opengis.feature.type.FeatureType;
+import org.opengis.referencing.crs.CoordinateReferenceSystem;
+import org.opengis.referencing.cs.CoordinateSystem;
+
+import sun.reflect.ReflectionFactory.GetReflectionFactoryAction;
 
 import com.vividsolutions.jts.geom.MultiLineString;
 import com.vividsolutions.jts.geom.Point;
@@ -51,49 +57,46 @@ public class ShapeReader {
 		 URL shapeURL = getClass().getResource("/environnement.shp");
 //          System.out.println(shapeURL.getPath());
          ShapefileDataStore store = new ShapefileDataStore(shapeURL);
+//         store.
          String name = store.getTypeNames()[0];
 //         System.out.println(name);
          FeatureSource source = store.getFeatureSource(name);
          FeatureCollection<FeatureType, Feature> featCollec =source.getFeatures();
          
          FeatureIterator<Feature> iterator = featCollec.features(); 
-         long idx = 0;
-         while(iterator.hasNext()){
-        	 Feature feature= (Feature) iterator.next();
-        	 Collection<Property> collec_prop= feature.getProperties();
-        	 Iterator<Property> ite_prop = collec_prop.iterator();
-        	 if (feature.getProperties("Libelle").toString().contains("Banc")){
-        		 while (ite_prop.hasNext()){
-            		 Property prop=ite_prop.next();
-            		 MultiLineString ml= (MultiLineString) prop.getValue();
-            		 Point pt= ml.getCentroid();
-            		 System.out.println(pt);
-            		 System.out.println(prop.getName()+"  _______   "+prop.getValue());
-            		 break;
-            	 }
-        		 System.out.println();
-        	 }
-//        	 MultiLineString sf;
-//        	 sf.
-        	 else{
-        		 
-        	 }
-        	
-
-//        	 System.out.println(feature.getType());
-//        	 System.out.println(feature.getProperties("Libelle").);
-//         break;
+         PrjFileReader prj= new PrjFileReader(new  ShpFiles(getClass().getResource("/environnement.prj")));
+         CoordinateReferenceSystem coor= prj.getCoodinateSystem();
+//         prj.
+//         System.out.println(coor.);
+         CoordinateSystem c = coor.getCoordinateSystem();
          
-         }
+//        System.out.println(c.);
+//         System.out.println( c.);
+//         System.out.println(c.getDimension());
+//         while(iterator.hasNext()){
+////        	 break;
+//        	 Feature feature= (Feature) iterator.next();
+//        	 Collection<Property> collec_prop= feature.getProperties();
+//        	 Iterator<Property> ite_prop = collec_prop.iterator();
+//        	 if (feature.getProperties("Libelle").toString().contains("Banc")){
+//        		 while (ite_prop.hasNext()){
+//            		 Property prop=ite_prop.next();
+//            		 MultiLineString ml= (MultiLineString) prop.getValue();
+//            		 Point pt= ml.getCentroid();
+//            		 pt.ge
+//            		 System.out.println(pt);
+//            		 System.out.println(prop.getName()+"  _______   "+prop.getValue());
+//            		 break;
+//            	 }
+//        		 System.out.println();
+//        	 }
+//        	 else{
+//        		 
+//        	 }
+//         }
          iterator.close();
          
-//         FeatureResults fsShape = source.getFeatures();
-         
-         
-//		frm.getContentPane().add(BorderLayout.CENTER,buildMap());
-//		frm.getContentPane().add(BorderLayout.NORTH,buildTool());
-
-//		frm.setVisible(true);        
+     
 	}
 	private JMenuBar buildMenu() {
 		JMenuBar menu = new JMenuBar();
