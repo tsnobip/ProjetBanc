@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.geom.Point2D;
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -31,6 +32,10 @@ import org.opengis.referencing.cs.CoordinateSystem;
 
 import sun.reflect.ReflectionFactory.GetReflectionFactoryAction;
 
+import com.bbn.openmap.layer.shape.ShapeFile;
+import com.bbn.openmap.proj.LambertConformal;
+import com.bbn.openmap.proj.coords.LatLonPoint;
+import com.bbn.openmap.proj.coords.LatLonPoint.Double;
 import com.jhlabs.map.proj.Ellipsoid;
 import com.jhlabs.map.proj.LambertConformalConicProjection;
 import com.jhlabs.map.proj.MolleweideProjection;
@@ -48,52 +53,59 @@ public class ShapeReader {
 		new ShapeReader();
 	}
 	public ShapeReader() throws IOException{
-		JFrame frm = new JFrame();
-		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frm.setSize(800,600);
-		frm.setTitle("Ma Première carte avec GeoTools");
+//		JFrame frm = new JFrame();
+//		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		frm.setSize(800,600);
+//		frm.setTitle("Ma Première carte avec GeoTools");
+//		
+//	     
+//		JPanel pfond = new JPanel(new BorderLayout());
+//		
+//		frm.setContentPane(pfond);
+//		
+//		frm.setJMenuBar(buildMenu());
 		
-	     
-		JPanel pfond = new JPanel(new BorderLayout());
 		
-		frm.setContentPane(pfond);
-		
-		frm.setJMenuBar(buildMenu());
-		
-		
-		 URL shapeURL = getClass().getResource("/environnement.shp");
+//		 URL shapeURL = getClass().getResource("/environnement.shp");
+		com.bbn.openmap.layer.shape.ShapeFile shap= new ShapeFile(new File("/environnement.shp"));
 //          System.out.println(shapeURL.getPath());
-         ShapefileDataStore store = new ShapefileDataStore(shapeURL);
-//         store.
-         String name = store.getTypeNames()[0];
-//         System.out.println(name);
-         FeatureSource source = store.getFeatureSource(name);
-         FeatureCollection<FeatureType, Feature> featCollec =source.getFeatures();
-         
-         FeatureIterator<Feature> iterator = featCollec.features(); 
-         PrjFileReader prj= new PrjFileReader(new  ShpFiles(getClass().getResource("/environnement.prj")));
-         CoordinateReferenceSystem coor= prj.getCoodinateSystem();
+//         ShapefileDataStore store = new ShapefileDataStore(shapeURL);
+////         store.
+//         String name = store.getTypeNames()[0];
+////         System.out.println(name);
+//         FeatureSource source = store.getFeatureSource(name);
+//         FeatureCollection<FeatureType, Feature> featCollec =source.getFeatures();
+//         
+//         FeatureIterator<Feature> iterator = featCollec.features(); 
+//         PrjFileReader prj= new PrjFileReader(new  ShpFiles(getClass().getResource("/environnement.prj")));
+//         CoordinateReferenceSystem coor= prj.getCoodinateSystem();
 //         coor.toWKT().
+//         
+//         LatLonPoint centerLatLonPoint = new Point2D(50.797815, 4.3592158333333333333333333333333);
+//         LambertConformal lb= new LambertConformal(centerLatLonPoint, 1, width, height, 2.3372291667, 50.39591166670001, 48.5985227778, 
+//        		 49.5,  600000.0, 200000.0,com.bbn.openmap.proj.Ellipsoid.CLARKE_1880);
          
+//         new com.bbn.openmap.proj.Ellipsoid("Clarke 1880", 6378249.2, 293.46602));
          
-//         LambertConformalConicProjection lambPro= new LambertConformalConicProjection(
+//         LambertConformalConicProjection lambPro= new LambertConformalConicProjection
+        		 
 //        		 new Ellipsoid("Clarke_1880_IGN", 6378249.2, 293.46602,"aaaaa"), 49.5, 2.3372291667, 50.39591166670001, 48.5985227778, 600000.0, 200000.0);
 ////         lambPro.inverseTransform(new 605781.2135908165, (Point2D.Double)128046.79420748491);
 //         lambPro.inverseTransform(new Point2D.Double(605781.2135908165,128046.79420748491) , new Point2D.Double(0,0));
          
-         System.out.println(coor.toWKT());
-         CoordinateSystem c = coor.getCoordinateSystem();
+//         System.out.println(coor.toWKT());
+//         CoordinateSystem c = coor.getCoordinateSystem();
         
          
          
          
-         MolleweideProjection molproj=new MolleweideProjection();
-
-		Point2D.Double pointonmap = new Point2D.Double (1400,1000);  
+//         MolleweideProjection molproj=new MolleweideProjection();
+//
+//		Point2D.Double pointonmap = new Point2D.Double (1400,1000);  
+//		
+//		Point2D.Double latlon=molproj.inverseTransform(pointonmap,new Point2D.Double ());
 		
-		Point2D.Double latlon=molproj.inverseTransform(pointonmap,new Point2D.Double ());
-		
-		System.out.println("latlon: " + latlon.getX() + ", " + latlon.getY());
+//		System.out.println("latlon: " + latlon.getX() + ", " + latlon.getY());
 //        System.out.println(c.);
 //         System.out.println( c.);
 //         System.out.println(c.getDimension());
@@ -118,7 +130,7 @@ public class ShapeReader {
 ////        		 
 ////        	 }
 //         }
-         iterator.close();
+//         iterator.close();
          
      
 	}
