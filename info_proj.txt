@@ -1,0 +1,23 @@
+PROJCS["NTF_Lambert_Zone_I", 
+  GEOGCS["GCS_NTF", 
+    DATUM["D_NTF", 
+											SPHEROID["Clarke_1880_IGN", 6378249.2, 293.46602]], 
+    PRIMEM["Greenwich", 0.0], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Longitude", EAST], 
+    AXIS["Latitude", NORTH]], 
+  PROJECTION["Lambert_Conformal_Conic_2SP"], 
+										  PARAMETER["central_meridian", 2.3372291667], 
+											PARAMETER["latitude_of_origin", 49.5], 
+										  PARAMETER["standard_parallel_1", 50.39591166670001], 
+										  PARAMETER["false_easting", 600000.0], 
+										  PARAMETER["false_northing", 200000.0], 
+										  PARAMETER["scale_factor", 1.0], 
+										  PARAMETER["standard_parallel_2", 48.5985227778], 
+  UNIT["m", 1.0], 
+  AXIS["x", EAST], 
+  AXIS["y", NORTH]]
+latlon: NaN, NaN
+
+998086.2831
+337355.0454
