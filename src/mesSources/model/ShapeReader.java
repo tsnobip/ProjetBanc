@@ -1,6 +1,8 @@
 package mesSources.model;
 
 import java.awt.BorderLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.geom.Point2D;
@@ -16,6 +18,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.KeyStroke;
 
 import org.geotools.data.FeatureSource;
 import org.geotools.data.shapefile.ShapefileDataStore;
@@ -33,6 +36,7 @@ import org.opengis.referencing.cs.CoordinateSystem;
 import sun.reflect.ReflectionFactory.GetReflectionFactoryAction;
 
 import com.bbn.openmap.layer.shape.ShapeFile;
+import com.bbn.openmap.layer.shape.ShapeIndex;
 import com.bbn.openmap.proj.LambertConformal;
 import com.bbn.openmap.proj.coords.LatLonPoint;
 import com.bbn.openmap.proj.coords.LatLonPoint.Double;
@@ -47,107 +51,176 @@ public class ShapeReader {
 
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
 		new ShapeReader();
 	}
-	public ShapeReader() throws IOException{
-//		JFrame frm = new JFrame();
-//		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		frm.setSize(800,600);
-//		frm.setTitle("Ma Première carte avec GeoTools");
-//		
-//	     
-//		JPanel pfond = new JPanel(new BorderLayout());
-//		
-//		frm.setContentPane(pfond);
-//		
-//		frm.setJMenuBar(buildMenu());
+
+	public ShapeReader() throws IOException {
+		buildIhm();
 		
-		
-//		 URL shapeURL = getClass().getResource("/environnement.shp");
-		com.bbn.openmap.layer.shape.ShapeFile shap= new ShapeFile(new File("/environnement.shp"));
-//          System.out.println(shapeURL.getPath());
-//         ShapefileDataStore store = new ShapefileDataStore(shapeURL);
-////         store.
-//         String name = store.getTypeNames()[0];
-////         System.out.println(name);
-//         FeatureSource source = store.getFeatureSource(name);
-//         FeatureCollection<FeatureType, Feature> featCollec =source.getFeatures();
-//         
-//         FeatureIterator<Feature> iterator = featCollec.features(); 
-//         PrjFileReader prj= new PrjFileReader(new  ShpFiles(getClass().getResource("/environnement.prj")));
-//         CoordinateReferenceSystem coor= prj.getCoodinateSystem();
-//         coor.toWKT().
-//         
-//         LatLonPoint centerLatLonPoint = new Point2D(50.797815, 4.3592158333333333333333333333333);
-//         LambertConformal lb= new LambertConformal(centerLatLonPoint, 1, width, height, 2.3372291667, 50.39591166670001, 48.5985227778, 
-//        		 49.5,  600000.0, 200000.0,com.bbn.openmap.proj.Ellipsoid.CLARKE_1880);
-         
-//         new com.bbn.openmap.proj.Ellipsoid("Clarke 1880", 6378249.2, 293.46602));
-         
-//         LambertConformalConicProjection lambPro= new LambertConformalConicProjection
-        		 
-//        		 new Ellipsoid("Clarke_1880_IGN", 6378249.2, 293.46602,"aaaaa"), 49.5, 2.3372291667, 50.39591166670001, 48.5985227778, 600000.0, 200000.0);
-////         lambPro.inverseTransform(new 605781.2135908165, (Point2D.Double)128046.79420748491);
-//         lambPro.inverseTransform(new Point2D.Double(605781.2135908165,128046.79420748491) , new Point2D.Double(0,0));
-         
-//         System.out.println(coor.toWKT());
-//         CoordinateSystem c = coor.getCoordinateSystem();
-        
-         
-         
-         
-//         MolleweideProjection molproj=new MolleweideProjection();
-//
-//		Point2D.Double pointonmap = new Point2D.Double (1400,1000);  
-//		
-//		Point2D.Double latlon=molproj.inverseTransform(pointonmap,new Point2D.Double ());
-		
-//		System.out.println("latlon: " + latlon.getX() + ", " + latlon.getY());
-//        System.out.println(c.);
-//         System.out.println( c.);
-//         System.out.println(c.getDimension());
-//         while(iterator.hasNext()){
-////        	 break;
-//        	 Feature feature= (Feature) iterator.next();
-//        	 Collection<Property> collec_prop= feature.getProperties();
-//        	 Iterator<Property> ite_prop = collec_prop.iterator();
-//        	 if (feature.getProperties("Libelle").toString().contains("Banc")){
-////        		 while (ite_prop.hasNext()){
-//            		 Property prop=ite_prop.next();
-//            		 MultiLineString ml= (MultiLineString) prop.getValue();
-//            		 Point pt= ml.getCentroid();
-////            		 pt.ge
-//            		 System.out.println(pt);
-//            		 System.out.println(prop.getName()+"  _______   "+prop.getValue());
-////            		 break;
-////            	 }
-//        		 System.out.println();
-//        	 }
-////        	 else{
-////        		 
-////        	 }
-//         }
-//         iterator.close();
-         
-     
+
 	}
+	private void buildIhm(){
+		JFrame frm = new JFrame();
+		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frm.setSize(800, 600);
+		frm.setTitle("Ma Première carte avec GeoTools");
+		
+		frm.setContentPane(buildMainPane());
+		
+		frm.setJMenuBar(buildMenu());
+		frm.setVisible(true);
+	}
+	private JPanel buildMainPane(){
+		JPanel mainPane = new JPanel(new BorderLayout());
+		
+		mainPane.add(buildMapPane(),BorderLayout.NORTH);
+		mainPane.add(buildBoutonPane(),BorderLayout.SOUTH);
+		
+		return mainPane;
+	}
+	private JPanel buildMapPane(){
+		JPanel mapPane = new JPanel();
+		
+		return mapPane;
+	}
+	private JPanel buildBoutonPane(){
+		JPanel boutonPane = new JPanel(new GridBagLayout());
+		GridBagConstraints g = new GridBagConstraints();
+		
+		
+		return boutonPane;
+	}
+	/**
+	 * Juste pour garder uen trace de mon ancien code
+	 */
+	private void shapeLect(){
+		URL shapeURL = getClass().getResource("/environnement.shp");
+
+//		com.bbn.openmap.layer.shape.ShapeFile shap = new ShapeFile(new File(
+//				shapeURL.getPath()));
+
+		// new ShapeIndex(shapeURL.getPath()).dumpIndex();
+		// System.out.println(shapeURL.getPath());
+//		ShapefileDataStore store = new ShapefileDataStore(shapeURL);
+		// // store.
+//		String name = store.getTypeNames()[0];
+		// // System.out.println(name);
+//		FeatureSource source = store.getFeatureSource(name);
+//		FeatureCollection<FeatureType, Feature> featCollec = source
+//				.getFeatures();
+		//
+//		FeatureIterator<Feature> iterator = featCollec.features();
+		// PrjFileReader prj= new PrjFileReader(new
+		// ShpFiles(getClass().getResource("/environnement.prj")));
+		// CoordinateReferenceSystem coor= prj.getCoodinateSystem();
+		// coor.toWKT().
+		//
+		LatLonPoint centerLatLonPoint = new LatLonPoint.Double(49.5, 0);
+		// 13.43 2.95
+		LambertConformal lb = new LambertConformal(centerLatLonPoint, 1,
+				998086, 337355, 2.3372291667, 50.39591166670001, 48.5985227778,
+				49.5, 600000.0, 200000.0,
+				com.bbn.openmap.proj.Ellipsoid.CLARKE_1880);
+		LatLonPoint testPoint = new LatLonPoint.Double();
+		lb.inverse(600325.1435783483, 128861.68064656129, testPoint);
+		// lb.inverse(540653.415583,214233.140745, testPoint);
+		System.out.println(testPoint.toString());
+
+		// new com.bbn.openmap.proj.Ellipsoid("Clarke 1880", 6378249.2,
+		// 293.46602));
+
+		// LambertConformalConicProjection lambPro= new
+		// LambertConformalConicProjection
+
+		// new Ellipsoid("Clarke_1880_IGN", 6378249.2, 293.46602,"aaaaa"), 49.5,
+		// 2.3372291667, 50.39591166670001, 48.5985227778, 600000.0, 200000.0);
+		// // lambPro.inverseTransform(new 605781.2135908165,
+		// (Point2D.Double)128046.79420748491);
+		// lambPro.inverseTransform(new
+		// Point2D.Double(605781.2135908165,128046.79420748491) , new
+		// Point2D.Double(0,0));
+
+		// System.out.println(coor.toWKT());
+		// CoordinateSystem c = coor.getCoordinateSystem();
+
+		// System.out.println(c.getDimension());
+//		while (iterator.hasNext()) {
+//			// break;
+//			Feature feature = (Feature) iterator.next();
+//			Collection<Property> collec_prop = feature.getProperties();
+//			Iterator<Property> ite_prop = collec_prop.iterator();
+//			if (feature.getProperties("Libelle").toString().contains("Banc")) {
+//				// while (ite_prop.hasNext()){
+//				Property prop = ite_prop.next();
+//				MultiLineString ml = (MultiLineString) prop.getValue();
+//				Point pt = ml.getCentroid();
+//				// pt.ge
+//				System.out.println(pt);
+//				System.out.println(prop.getName() + "  _______   "
+//						+ prop.getValue());
+//				// break;
+//				// }
+//				System.out.println();
+//				break;
+//			}
+//			// else{
+//			//
+//			// }
+//		}
+//		iterator.close();
+	}
+
+	/**
+	 * Construction de la barre de Menu
+	 * 
+	 * @return la {@link JMenuBar}
+	 */	
 	private JMenuBar buildMenu() {
-		JMenuBar menu = new JMenuBar();
-		JMenu mfichier = new JMenu("Fichier");
-		JMenuItem iquitter = new JMenuItem("Quitter");
-		iquitter.addActionListener(new ActionListener() {
+		JMenuBar menuBar = new JMenuBar();
+
+		menuBar.add(buildMenuFichier());
+		menuBar.add(buildMenuAide());
+
+		return menuBar;
+
+	}
+
+	/**
+	 * Construction du menu <i>Fichier</i>
+	 * 
+	 * @return le {@link JMenu}
+	 */
+	private JMenu buildMenuFichier() {
+		JMenu menu = new JMenu("Fichier");
+		JMenuItem menuItem = new JMenuItem("Quitter");
+		menuItem.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.exit(0);
 			}
 		});
-		mfichier.add(iquitter);
-		menu.add(mfichier);
-		    
-	    return menu;
-	
+		menuItem.setAccelerator(KeyStroke.getKeyStroke('q'));
+		menu.add(menuItem);
+		return menu;
+	}
+
+	/**
+	 * Construction du menu <i>Aide</i>
+	 * 
+	 * @return le {@link JMenu}
+	 */
+	private JMenu buildMenuAide() {
+		JMenu menu = new JMenu("Aide");
+		JMenuItem menuItem = new JMenuItem("A Propos");
+		menuItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				// TODO
+			}
+		});
+		menu.add(menuItem);
+		return menu;
 	}
 
 }
