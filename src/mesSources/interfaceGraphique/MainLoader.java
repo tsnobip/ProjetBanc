@@ -1,4 +1,4 @@
-package mesSources.model;
+package mesSources.interfaceGraphique;
 
 import java.awt.BorderLayout;
 import java.awt.GridBagConstraints;
@@ -47,17 +47,17 @@ import com.sun.management.jmx.JMProperties;
 import com.vividsolutions.jts.geom.MultiLineString;
 import com.vividsolutions.jts.geom.Point;
 
-public class ShapeReader {
+public class MainLoader {
 
 	/**
 	 * @param args
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		new ShapeReader();
+		new MainLoader();
 	}
 
-	public ShapeReader() throws IOException {
+	public MainLoader() throws IOException {
 		buildIhm();
 		
 
