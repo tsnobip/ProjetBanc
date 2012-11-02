@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<name><![CDATA[Liste des monuments historiques de Versailles]]></name>
+	<open>1</open>
+	<Folder>
+		<name><![CDATA[Liste]]></name>
+		<open>1</open>
+		<Placemark>
+			<name><![CDATA[Bailliage]]></name>
+			<Point>
+				<coordinates>2.131675,48.807162,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Bâtiments du Manège]]></name>
+			<Point>
+				<coordinates>2.128885,48.801903,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Caserne Vauban]]></name>
+			<Point>
+				<coordinates>2.120367,48.801081,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Cathédrale Saint-Louis]]></name>
+			<Point>
+				<coordinates>2.124167,48.798333,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chapelle de Béthune]]></name>
+			<Point>
+				<coordinates>2.138222,48.819037,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Chapelle de l'Hermitage]]></name>
+			<Point>
+				<coordinates>2.123896,48.812908,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Charcuterie, 12 rue du Vieux-Versailles]]></name>
+			<Point>
+				<coordinates>2.122263,48.800922,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Domaine de Montreuil]]></name>
+			<Point>
+				<coordinates>2.145102,48.800249,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Domaine national du château de Versailles]]></name>
+			<Point>
+				<coordinates>2.119444,48.805,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Écuries de la comtesse d'Artois]]></name>
+			<Point>
+				<coordinates>2.121268,48.794443,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Écuries du Roi]]></name>
+			<Point>
+				<coordinates>2.126428,48.806637,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Église Notre-Dame]]></name>
+			<Point>
+				<coordinates>2.128853,48.807694,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Église Saint-Symphorien]]></name>
+			<Point>
+				<coordinates>2.14625,48.804334,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Fontaine de la place Saint-Louis]]></name>
+			<Point>
+				<coordinates>2.124658,48.798887,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Gare de Versailles-Chantiers]]></name>
+			<Point>
+				<coordinates>2.135867,48.795673,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Grand Commun]]></name>
+			<Point>
+				<coordinates>2.122046,48.803002,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Grande Écurie]]></name>
+			<Point>
+				<coordinates>2.12829,48.80378,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôpital Richaud]]></name>
+			<Point>
+				<coordinates>2.134185,48.808234,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel, 62bis rue de Montreuil]]></name>
+			<Point>
+				<coordinates>2.14916,48.804528,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel des Affaires étrangères et de la Marine]]></name>
+			<Point>
+				<coordinates>2.12101,48.802134,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.124776,48.801652,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel du Gouvernement]]></name>
+			<Point>
+				<coordinates>2.123634,48.805846,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel du Grand Contrôle]]></name>
+			<Point>
+				<coordinates>2.120077,48.801309,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel de la Guerre]]></name>
+			<Point>
+				<coordinates>2.121351,48.802369,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel Lambinet]]></name>
+			<Point>
+				<coordinates>2.135,48.8053,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel de Mademoiselle]]></name>
+			<Point>
+				<coordinates>2.12549,48.804897,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel des Menus Plaisirs]]></name>
+			<Point>
+				<coordinates>2.133713,48.800624,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel de la Poste]]></name>
+			<Point>
+				<coordinates>2.121542,48.802528,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Hôtel des Réservoirs]]></name>
+			<Point>
+				<coordinates>2.123523,48.807163,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 6 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.123749,48.79759,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 7 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.125635,48.797299,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 9, 11, 13, 15, 17, 19, 21 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.125928,48.797218,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 20 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.125492,48.797083,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 22, 24, 26, 28, 30, 32, 36, 38 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.125758,48.796981,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 23 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126105,48.797142,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 29 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126724,48.796984,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 31, 33, 35, 39, 41 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126866,48.796915,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 40, 42 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.125863,48.796959,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 43 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.12623,48.797124,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 48, 50 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126538,48.796751,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 52, 54, 56, 58, 60 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126804,48.796679,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 62 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126962,48.796611,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 6 rue de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.123124,48.80297,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 8 rue de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.123229,48.802892,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 10 rue de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.1235,48.802611,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 12 rue de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.123738,48.802484,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 14 rue de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.123923,48.80236,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 16 rue de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.124318,48.802041,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 18, 20, 22 rue de la Chancellerie]]></name>
+			<Point>
+				<coordinates>2.124588,48.801781,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 3 rue Colbert]]></name>
+			<Point>
+				<coordinates>2.12424,48.804874,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 5 rue Colbert]]></name>
+			<Point>
+				<coordinates>2.124681,48.804838,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 7 rue Colbert]]></name>
+			<Point>
+				<coordinates>2.125047,48.804871,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 11, 11bis rue Colbert]]></name>
+			<Point>
+				<coordinates>2.12595,48.804968,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 15 rue Colbert]]></name>
+			<Point>
+				<coordinates>2.126624,48.805001,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 17 rue Colbert]]></name>
+			<Point>
+				<coordinates>2.126917,48.805021,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 8, 8bis, 10, 10bis rue de l'Indépendance-Américaine]]></name>
+			<Point>
+				<coordinates>2.120444,48.801873,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 18 rue de l'Occident ; 2 rue de la Sainte-Famille]]></name>
+			<Point>
+				<coordinates>2.124996,48.796735,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 26 rue Philippe-de-Dangeau ; rue Montbauron]]></name>
+			<Point>
+				<coordinates>2.13473,48.803313,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, place Hoche ; rue Hoche ; rue Carnot]]></name>
+			<Point>
+				<coordinates>2.127914,48.806069,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 11, 11bis, 15 rue des Réservoirs]]></name>
+			<Point>
+				<coordinates>2.124197,48.807966,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 18 rue Royale ; rue du Marché-Neuf]]></name>
+			<Point>
+				<coordinates>2.126404,48.797458,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 20 rue Royale]]></name>
+			<Point>
+				<coordinates>2.126335,48.797355,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 22, 24, 26, 28, 30 rue Royale]]></name>
+			<Point>
+				<coordinates>2.12626,48.797263,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 32, 34 rue Royale ; 23 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126214,48.79714,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 36 rue Royale ; 40, 42 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.125991,48.796834,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 37 rue Royale ; rue du Marché-Neuf]]></name>
+			<Point>
+				<coordinates>2.126364,48.796829,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 38, 40, 42, 44, 46, 50 rue Royale]]></name>
+			<Point>
+				<coordinates>2.125889,48.796744,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 39, 41, 43, 45, 47, 49, 51 rue Royale]]></name>
+			<Point>
+				<coordinates>2.126297,48.79665,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 51bis rue Royale ; 27 rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126144,48.796422,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 52 rue Royale]]></name>
+			<Point>
+				<coordinates>2.125801,48.796557,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 53 rue Royale ; rue d'Anjou]]></name>
+			<Point>
+				<coordinates>2.126023,48.796299,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 53bis, 54, 55, 57 rue Royale]]></name>
+			<Point>
+				<coordinates>2.125881,48.796058,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 56 rue Royale ; rue de la Sainte-Famille]]></name>
+			<Point>
+				<coordinates>2.125787,48.796516,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 59 rue Royale]]></name>
+			<Point>
+				<coordinates>2.126522,48.797014,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 63 rue Royale]]></name>
+			<Point>
+				<coordinates>2.126281,48.796638,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 65, 67 rue Royale]]></name>
+			<Point>
+				<coordinates>2.126219,48.796507,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 69 rue Royale ; rue de la Sainte-Famille]]></name>
+			<Point>
+				<coordinates>2.126141,48.796422,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 50, 50bis avenue de Saint-Cloud]]></name>
+			<Point>
+				<coordinates>2.136385,48.804913,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeubles, 52, 52bis, 52ter avenue de Saint-Cloud]]></name>
+			<Point>
+				<coordinates>2.136567,48.804949,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 83 avenue de Saint-Cloud]]></name>
+			<Point>
+				<coordinates>2.138327,48.805874,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Immeuble, 26 rue de Satory]]></name>
+			<Point>
+				<coordinates>2.124548,48.800126,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Laiterie de Madame]]></name>
+			<Point>
+				<coordinates>2.141339,48.799668,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Lycée Hoche]]></name>
+			<Point>
+				<coordinates>2.137104,48.806885,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maison, 11 rue de la Paroisse]]></name>
+			<Point>
+				<coordinates>2.126651,48.808187,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maison, 1 rue Robert-de-Cotte]]></name>
+			<Point>
+				<coordinates>2.123247,48.804949,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maison Cassandre]]></name>
+			<Point>
+				<coordinates>2.13664,48.81061,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maison du Docteur Le-Monnier]]></name>
+			<Point>
+				<coordinates>2.146052,48.801161,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maison La Colette]]></name>
+			<Point>
+				<coordinates>2.125305,48.795018,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maison des musiciens italiens]]></name>
+			<Point>
+				<coordinates>2.14655,48.801497,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Maison natale du général Hoche]]></name>
+			<Point>
+				<coordinates>2.124905,48.800622,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Monument Pershing - Lafayette]]></name>
+			<Point>
+				<coordinates>2.155423,48.813494,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Mur des Fédérés]]></name>
+			<Point>
+				<coordinates>2.115555,48.779533,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pavillon du Barry]]></name>
+			<Point>
+				<coordinates>2.134738,48.801482,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pavillon d'octroi, 30 boulevard du Roi]]></name>
+			<Point>
+				<coordinates>2.128003,48.813283,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pavillon d'octroi, 33 boulevard du Roi]]></name>
+			<Point>
+				<coordinates>2.127509,48.813383,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pavillon des Filtres]]></name>
+			<Point>
+				<coordinates>2.151244,48.811375,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pavillon de musique de Madame]]></name>
+			<Point>
+				<coordinates>2.141639,48.799578,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Pavillon des Sources]]></name>
+			<Point>
+				<coordinates>2.127021,48.806387,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Petite Écurie]]></name>
+			<Point>
+				<coordinates>2.126944,48.801944,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Porte des Gendarmes]]></name>
+			<Point>
+				<coordinates>2.131171,48.801398,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Potager du roi et parc Balbi]]></name>
+			<Point>
+				<coordinates>2.121111,48.798611,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Quartier d'Anjou]]></name>
+			<Point>
+				<coordinates>2.128885,48.796334,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Quartier d'Artois]]></name>
+			<Point>
+				<coordinates>2.132286,48.797398,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Quartier de Croy]]></name>
+			<Point>
+				<coordinates>2.12777,48.798776,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Quartier de Noailles]]></name>
+			<Point>
+				<coordinates>2.134102,48.801657,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Salle du Jeu de paume]]></name>
+			<Point>
+				<coordinates>2.12389,48.801,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Synagogue]]></name>
+			<Point>
+				<coordinates>2.136121,48.810463,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Théâtre Montansier]]></name>
+			<Point>
+				<coordinates>2.124167,48.808056,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Villa Bomsel]]></name>
+			<Point>
+				<coordinates>2.136267,48.810983,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+		<Placemark>
+			<name><![CDATA[Villa Moricet]]></name>
+			<Point>
+				<coordinates>2.141127,48.805185,0</coordinates>
+			</Point>
+			<Snippet></Snippet>
+			<description><![CDATA[<br>Source: Wikipedia article <a href="http://fr.wikipedia.org/wiki/Liste_des_monuments_historiques_de_Versailles#timeline_ad7185ccf01c2ee1d2075ecbfd3ef3f0">Liste des monuments historiques de Versailles</a>]]></description>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
