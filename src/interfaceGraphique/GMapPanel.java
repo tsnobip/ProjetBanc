@@ -109,7 +109,7 @@ public class GMapPanel extends JEditorPane {
 //        html += "<img src='" + url + "'>";
 //        html += "</body></html>";
         
-        String html = "<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps/ms?hl=fr&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=217932113684213302959.0004cd49e9e419b0271f1&amp;ll=48.799878,2.137395&amp;spn=0.038281,0.049426&amp;t=h&amp;output=embed\"></iframe>";
+        String html = "<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://maps.google.com/maps/ms?hl=fr&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=217932113684213302959.0004cd49e9e419b0271f1&amp;ll=48.799878,2.137395&amp;spn=0.038281,0.049426&amp;t=h&amp;output=embed\"></iframe>";
         this.setText(html);
         System.out.println(html+"\n");
     }
