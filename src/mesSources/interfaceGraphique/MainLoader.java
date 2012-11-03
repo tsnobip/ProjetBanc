@@ -3,6 +3,7 @@ package mesSources.interfaceGraphique;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
@@ -64,14 +65,13 @@ public class MainLoader {
 		mainPane.add(buildMapPane(),BorderLayout.CENTER);
 		mainPane.add(buildBoutonPane(),BorderLayout.SOUTH);
 		
-		return mainPane;
+		return mainPane; 
 	}
-	private JPanel buildMapPane(){
-		JPanel mapPane = new JPanel();
-		mapPane.setBorder(BorderFactory.createLineBorder(Color.black));
-		mapPane.add(new JLabel("LA MAP"));
-		
-		return mapPane;
+	private MapPane buildMapPane(){
+		MapPane pane = new MapPane();
+		pane.setBorder(BorderFactory.createLineBorder(Color.black));
+//		mapPane.add(new JLabel("LA MAP"));
+		return pane;
 	}
 	
 	/**

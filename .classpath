@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="mes datas"/>
+	<classpathentry kind="src" path="Icones"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Ulybu/workspace/LIB/geotools-8.2/gt-shapefile-8.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Ulybu/workspace/LIB/openmap-5.0/lib/openmap.jar"/>

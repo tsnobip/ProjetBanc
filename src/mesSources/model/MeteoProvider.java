@@ -85,7 +85,7 @@ public class MeteoProvider   {
 	}
 
 	/**
-	 * Return an Hashtable with all pertinents data
+	 * Return an Hashtable with all pertinent data
 	 * @category Accessor
 	 * @return an {@link Hashtable} with the following key
 	 * <ul> <li> "temperature" - <i>String</i></li>
