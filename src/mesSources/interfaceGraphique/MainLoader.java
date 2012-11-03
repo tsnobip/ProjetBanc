@@ -1,54 +1,35 @@
 package mesSources.interfaceGraphique;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
+import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.geom.Point2D;
-import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Collection;
-import java.util.Iterator;
+import java.util.Hashtable;
 
+import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
+import javax.swing.border.TitledBorder;
 
-import org.geotools.data.FeatureSource;
-import org.geotools.data.shapefile.ShapefileDataStore;
-import org.geotools.data.shapefile.ShpFiles;
-import org.geotools.data.shapefile.prj.PrjFileReader;
-import org.geotools.feature.FeatureCollection;
-import org.geotools.feature.FeatureIterator;
-import org.geotools.referencing.operation.projection.Mollweide;
-import org.opengis.feature.Feature;
-import org.opengis.feature.Property;
-import org.opengis.feature.type.FeatureType;
-import org.opengis.referencing.crs.CoordinateReferenceSystem;
-import org.opengis.referencing.cs.CoordinateSystem;
 
-import sun.reflect.ReflectionFactory.GetReflectionFactoryAction;
-
-import com.bbn.openmap.layer.shape.ShapeFile;
-import com.bbn.openmap.layer.shape.ShapeIndex;
-import com.bbn.openmap.proj.LambertConformal;
-import com.bbn.openmap.proj.coords.LatLonPoint;
-import com.bbn.openmap.proj.coords.LatLonPoint.Double;
-import com.jhlabs.map.proj.Ellipsoid;
-import com.jhlabs.map.proj.LambertConformalConicProjection;
-import com.jhlabs.map.proj.MolleweideProjection;
-import com.sun.management.jmx.JMProperties;
-import com.vividsolutions.jts.geom.MultiLineString;
-import com.vividsolutions.jts.geom.Point;
-
+import mesSources.model.*;
 public class MainLoader {
 
+	private final String APIKeyWeatherOnline= "80a15653bf074854120810";
+	private final String Ville= "Versailles";
+	private final String WeatherBaseURL ="http://free.worldweatheronline.com/feed/weather.ashx";
 	/**
 	 * @param args
 	 * @throws IOException
@@ -60,7 +41,8 @@ public class MainLoader {
 	public MainLoader() throws IOException {
 		buildIhm();
 		
-
+		
+//		System.out.println(TexteFileLoader.Read(fileName));
 	}
 	private void buildIhm(){
 		JFrame frm = new JFrame();
@@ -73,24 +55,81 @@ public class MainLoader {
 		frm.setJMenuBar(buildMenu());
 		frm.setVisible(true);
 	}
+	
+
 	private JPanel buildMainPane(){
 		JPanel mainPane = new JPanel(new BorderLayout());
 		
-		mainPane.add(buildMapPane(),BorderLayout.NORTH);
+		mainPane.add(buildMETEOPane(),BorderLayout.NORTH);
+		mainPane.add(buildMapPane(),BorderLayout.CENTER);
 		mainPane.add(buildBoutonPane(),BorderLayout.SOUTH);
 		
 		return mainPane;
 	}
 	private JPanel buildMapPane(){
 		JPanel mapPane = new JPanel();
+		mapPane.setBorder(BorderFactory.createLineBorder(Color.black));
+		mapPane.add(new JLabel("LA MAP"));
 		
 		return mapPane;
+	}
+	
+	/**
+	 * @category METEO
+	 * @return
+	 */
+	private JPanel buildMETEOPane(){
+		JPanel meteoPane = new JPanel(new GridBagLayout());
+		GridBagConstraints g = new GridBagConstraints();
+
+		//Obtention des infos Météos
+		MeteoProvider mp=new MeteoProvider(WeatherBaseURL, Ville, MeteoProvider.FileType.JSON, APIKeyWeatherOnline);
+		Hashtable<String, Object> dataMeteo = mp.getData();
+		
+//		Affichage des infos météos
+		g.gridheight=1;g.gridwidth=2;
+		g.gridx=GridBagConstraints.RELATIVE;
+		g.anchor=g.WEST;
+		g.ipady=3;
+//		g.ipadx=5;
+		meteoPane.add(new JLabel((ImageIcon) dataMeteo.get("icone")),g);
+		
+		g.fill=g.BOTH;
+//		g.ipady=5;
+		g.insets=new Insets(0, 0, 0, 0);
+		meteoPane.add(buildMeteoInfo(dataMeteo),g);
+		
+//		
+		return meteoPane;
+	}
+	/**
+	 * @category METEO
+	 * @param data
+	 * @return
+	 */
+	private JPanel buildMeteoInfo(Hashtable data){
+		JPanel mainPane = new JPanel(new GridBagLayout());
+		GridBagConstraints g = new GridBagConstraints();
+//		mainPane.setBackground(Color.red);
+		g.fill=g.BOTH;
+		JLabel J=new JLabel(); 
+		
+		mainPane.setBorder(BorderFactory.createTitledBorder(BorderFactory.createMatteBorder(2, 8, 2, 2,  Color.cyan), "  Météo  ", TitledBorder.DEFAULT_JUSTIFICATION, TitledBorder.CENTER, new Font(J.getFont().getFamily(), Font.BOLD, 15)));
+		g.insets=new Insets(5, 10, 5, 10);
+		mainPane.add(new JLabel((String) data.get("weatherDesc")),g);
+		
+		g.insets=new Insets(5, 10, 5, 10);
+		mainPane.add(new JLabel("Température : "+(String) data.get("temperature")),g);
+		
+		mainPane.add(new JLabel("Couverture nuageuse : "+(String) data.get("cloudcover")+ " %"),g);
+		return mainPane;
 	}
 	private JPanel buildBoutonPane(){
 		JPanel boutonPane = new JPanel(new GridBagLayout());
 		GridBagConstraints g = new GridBagConstraints();
+		boutonPane.setBorder(BorderFactory.createLineBorder(Color.black));
 		
-		
+		boutonPane.add(new JLabel("Les Boutons de Menus ou autres outils"));
 		return boutonPane;
 	}
 	/**
@@ -118,16 +157,16 @@ public class MainLoader {
 		// CoordinateReferenceSystem coor= prj.getCoodinateSystem();
 		// coor.toWKT().
 		//
-		LatLonPoint centerLatLonPoint = new LatLonPoint.Double(49.5, 0);
-		// 13.43 2.95
-		LambertConformal lb = new LambertConformal(centerLatLonPoint, 1,
-				998086, 337355, 2.3372291667, 50.39591166670001, 48.5985227778,
-				49.5, 600000.0, 200000.0,
-				com.bbn.openmap.proj.Ellipsoid.CLARKE_1880);
-		LatLonPoint testPoint = new LatLonPoint.Double();
-		lb.inverse(600325.1435783483, 128861.68064656129, testPoint);
-		// lb.inverse(540653.415583,214233.140745, testPoint);
-		System.out.println(testPoint.toString());
+//		LatLonPoint centerLatLonPoint = new LatLonPoint.Double(49.5, 0);
+//		// 13.43 2.95
+//		LambertConformal lb = new LambertConformal(centerLatLonPoint, 1,
+//				998086, 337355, 2.3372291667, 50.39591166670001, 48.5985227778,
+//				49.5, 600000.0, 200000.0,
+//				com.bbn.openmap.proj.Ellipsoid.CLARKE_1880);
+//		LatLonPoint testPoint = new LatLonPoint.Double();
+//		lb.inverse(600325.1435783483, 128861.68064656129, testPoint);
+//		// lb.inverse(540653.415583,214233.140745, testPoint);
+//		System.out.println(testPoint.toString());
 
 		// new com.bbn.openmap.proj.Ellipsoid("Clarke 1880", 6378249.2,
 		// 293.46602));
