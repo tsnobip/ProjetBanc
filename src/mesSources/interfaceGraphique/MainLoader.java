@@ -5,13 +5,8 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.geom.Point2D;
-import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Collection;
-import java.util.Iterator;
 
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -20,32 +15,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 
-import org.geotools.data.FeatureSource;
-import org.geotools.data.shapefile.ShapefileDataStore;
-import org.geotools.data.shapefile.ShpFiles;
-import org.geotools.data.shapefile.prj.PrjFileReader;
-import org.geotools.feature.FeatureCollection;
-import org.geotools.feature.FeatureIterator;
-import org.geotools.referencing.operation.projection.Mollweide;
-import org.opengis.feature.Feature;
-import org.opengis.feature.Property;
-import org.opengis.feature.type.FeatureType;
-import org.opengis.referencing.crs.CoordinateReferenceSystem;
-import org.opengis.referencing.cs.CoordinateSystem;
-
-import sun.reflect.ReflectionFactory.GetReflectionFactoryAction;
-
-import com.bbn.openmap.layer.shape.ShapeFile;
-import com.bbn.openmap.layer.shape.ShapeIndex;
-import com.bbn.openmap.proj.LambertConformal;
-import com.bbn.openmap.proj.coords.LatLonPoint;
-import com.bbn.openmap.proj.coords.LatLonPoint.Double;
-import com.jhlabs.map.proj.Ellipsoid;
-import com.jhlabs.map.proj.LambertConformalConicProjection;
-import com.jhlabs.map.proj.MolleweideProjection;
 import com.sun.management.jmx.JMProperties;
-import com.vividsolutions.jts.geom.MultiLineString;
-import com.vividsolutions.jts.geom.Point;
 
 public class MainLoader {
 
