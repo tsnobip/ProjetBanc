@@ -36,7 +36,7 @@ public class HTTPRequester {
 			
 			URLConnection conn=null;
 			conn = url.openConnection ();
-			conn.setConnectTimeout(3000);
+			conn.setConnectTimeout(5000);
 			return conn;
 		}
 		else return null;		 

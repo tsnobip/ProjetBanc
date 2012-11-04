@@ -20,7 +20,6 @@ public class MapPane extends JDesktopPane implements MouseListener,MouseMotionLi
 	private List<Marqueur> marqueurs;
 	private ListIterator<Marqueur> iterator;
 	private Marqueur Current_Marker_Clicked;
-	private PopUp_Frame mapframe;
 	public MapPane(){
 		super();
 		addMouseListener(this);
