@@ -1,7 +1,9 @@
 package mesSources.model;
 
 import java.awt.Image;
+import java.io.IOException;
 import java.io.InputStream;
+import java.net.MalformedURLException;
 import java.net.URLConnection;
 import java.util.Hashtable;
 
@@ -47,10 +49,12 @@ public class MeteoProvider   {
 	 * @see HTTPRequester#connect(String, String)
 	 */
 	public MeteoProvider(String endpoint, String ville, FileType format, String APIKey){
-		URLConnection urlConn = HTTPRequester.connect(endpoint, getMeteoParameters(ville, format, APIKey));
-		if(urlConn==null){
-			JOptionPane.showMessageDialog(new JFrame(), "La connexion a échoué", "Echec de Connexion", JOptionPane.ERROR_MESSAGE);
-			return;
+		URLConnection urlConn = null;
+		try {
+			urlConn = HTTPRequester.connect(endpoint, getMeteoParameters(ville, format, APIKey));
+		}catch (IOException ee) {
+			JOptionPane.showMessageDialog(new JFrame(), "La connexion au service Météo à échoué\nMétéo indisponible", "Echec de Connexion", JOptionPane.ERROR_MESSAGE);
+			ee.printStackTrace();
 		}
 		
 		inStream = HTTPRequester.getStream(urlConn);
@@ -102,15 +106,35 @@ public class MeteoProvider   {
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
-		try {
-			data.put("temperature",(String) current.getString("temp_C"));
-			data.put("cloudcover",(String) current.getString("cloudcover"));
-			data.put("weatherDesc",(String) current.getJSONArray("weatherDesc").getJSONObject(0).getString("value"));
+		
+			try {
+				data.put("temperature",(String) current.getString("temp_C"));
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			try {
+				data.put("cloudcover",(String) current.getString("cloudcover"));
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			try {
+				data.put("weatherDesc",(String) current.getJSONArray("weatherDesc").getJSONObject(0).getString("value"));
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			
-			URLConnection urlConn = HTTPRequester.connect(current.getJSONArray("weatherIconUrl").getJSONObject(0).getString("value"),null);
-			if(urlConn==null){
-				JOptionPane.showMessageDialog(new JFrame(), "La connexion a échoué", "Echec de Connexion", JOptionPane.ERROR_MESSAGE);
-				return null;
+			URLConnection urlConn = null;
+			try {
+				urlConn = HTTPRequester.connect(current.getJSONArray("weatherIconUrl").getJSONObject(0).getString("value"),null);
+			} catch (IOException e) {
+				JOptionPane.showMessageDialog(new JFrame(), "La connexion au service Météo a échoué", "Echec de Connexion", JOptionPane.ERROR_MESSAGE);
+				e.printStackTrace();
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 			
 			InputStream inStream_im = HTTPRequester.getStream(urlConn);
@@ -119,9 +143,8 @@ public class MeteoProvider   {
 				return null;
 			}
 			data.put("icone",(ImageIcon)new ImageIcon(HTTPRequester.getAnImage(inStream_im)));
-		} catch (JSONException e) {
-			e.printStackTrace();
-		}
+	
+		
 		return data;
 	}
 

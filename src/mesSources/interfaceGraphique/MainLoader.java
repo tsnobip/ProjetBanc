@@ -31,6 +31,7 @@ public class MainLoader {
 	private final String APIKeyWeatherOnline= "80a15653bf074854120810";
 	private final String Ville= "Versailles";
 	private final String WeatherBaseURL ="http://free.worldweatheronline.com/feed/weather.ashx";
+	private JPanel mainPane;
 	/**
 	 * @param args
 	 * @throws IOException
@@ -55,11 +56,13 @@ public class MainLoader {
 		
 		frm.setJMenuBar(buildMenu());
 		frm.setVisible(true);
+		mainPane.repaint();
 	}
 	
 
 	private JPanel buildMainPane(){
-		JPanel mainPane = new JPanel(new BorderLayout());
+		 mainPane = new JPanel(new BorderLayout());
+//		JPanel mainPane = new JPanel(new BorderLayout());
 		
 		mainPane.add(buildMETEOPane(),BorderLayout.NORTH);
 		mainPane.add(buildMapPane(),BorderLayout.CENTER);

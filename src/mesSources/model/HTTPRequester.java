@@ -21,8 +21,9 @@ public class HTTPRequester {
 	 * @param requestParameters parameters (without <i>?</i> or null
 	 * @return the {@link URLConnection} associated
 	 *  null if failure
+	 * @throws IOException 
 	 */
-	public static URLConnection connect(String endpoint, String requestParameters)
+	public static URLConnection connect(String endpoint, String requestParameters) throws IOException
 	{
 		String result = null;
 		if (endpoint.startsWith("http://"))	{
@@ -31,20 +32,11 @@ public class HTTPRequester {
 				if (requestParameters != null && requestParameters.length () > 0){
 					urlStr += "?" + requestParameters;
 				}
-			URL url=null;
-			try {
-				url = new URL(urlStr);
-			} catch (MalformedURLException e1) {
-				System.out.println(e1.toString());
-				return null;
-			}
+			URL url = new URL(urlStr);
+			
 			URLConnection conn=null;
-			try{
-				conn = url.openConnection ();
-			}catch(IOException e){
-				System.out.println(e.toString());
-				return null;
-			}
+			conn = url.openConnection ();
+			conn.setConnectTimeout(3000);
 			return conn;
 		}
 		else return null;		 
