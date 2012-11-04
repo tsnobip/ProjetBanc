@@ -7,6 +7,7 @@ import java.awt.Image;
 
 import javax.swing.ImageIcon;
 import javax.swing.JDesktopPane;
+import javax.swing.JInternalFrame;
 
 import com.bbn.openmap.app.Main;
 
@@ -17,7 +18,7 @@ public class Marqueur extends ImageIcon{
 	private final static String ICON_NORMAL_PATH="green";
 	private final static String ICON_CLICKED_PATH="green-dot";
 	private final String ICON_SHADOW_PATH="shadow";
-	private boolean SHADOWED=true;
+	private boolean SHADOWED=false;
 	//X-Y Coordinates visually pointed by he marker
 	private int X;
 	private int Y;
@@ -51,9 +52,11 @@ public class Marqueur extends ImageIcon{
 		
 		if (display) {
 			pop = new PopUp_Frame(X,Y);
-			pop.setLocation(X, Y);
 			pop.pack();
-			desk.add(pop);
+			pop.setFrameIcon(null);
+//			JInternalFrame
+//			pop.putClientProperty("JInternalFrame.isPalette", true);
+			desk.add(pop,JDesktopPane.PALETTE_LAYER);
 			pop.setVisible(true);
 		} else {
 			pop.setVisible(false);
@@ -69,9 +72,11 @@ public class Marqueur extends ImageIcon{
 	public void setState(state state){
 		switch (state){
 		case CLICKED:this.setImage(new ImageIcon(MainLoader.class.getResource("/"+ICON_CLICKED_PATH+".png")).getImage());
-			break;
+			SHADOWED=true;
+		break;
 		case NORMAL:this.setImage(new ImageIcon(MainLoader.class.getResource("/"+ICON_NORMAL_PATH+".png")).getImage());
-			break;
+		SHADOWED=false;	
+		break;
 		
 		}
 	}
